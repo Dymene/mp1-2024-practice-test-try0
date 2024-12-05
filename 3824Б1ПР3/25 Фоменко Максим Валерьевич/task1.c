@@ -3,5 +3,15 @@
 // Если a + b <= INT_MIN, возвращать INT_MIN
 int sum_of_two_numbers(int a, int b)
 {
-  return 0;
+	int c = a + b;
+	if c >= INT_MAX{
+		return INT_MAX
+	}
+	else if c <= INT_MIN{
+		return INT_MIN
+	}
+	else {
+		return 0;
+	}
+	
 }
